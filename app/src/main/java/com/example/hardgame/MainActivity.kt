@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
 import com.example.hardgame.databinding.ActivityMainBinding
+import com.example.hardgame.datamodel.DataModel
+import com.example.hardgame.fragment.ChoiceFragment
 
 class MainActivity : AppCompatActivity() {
 

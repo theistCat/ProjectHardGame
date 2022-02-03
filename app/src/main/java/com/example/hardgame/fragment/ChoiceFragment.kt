@@ -1,4 +1,4 @@
-package com.example.hardgame
+package com.example.hardgame.fragment
 
 import android.os.Bundle
 import android.util.Log
@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.LifecycleOwner
+import com.example.hardgame.datamodel.DataModel
 import com.example.hardgame.databinding.FragmentChoiceBinding
 import java.lang.IndexOutOfBoundsException
 import kotlin.system.exitProcess
@@ -21,7 +22,7 @@ class ChoiceFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentChoiceBinding.inflate(inflater)
         return binding.root
     }

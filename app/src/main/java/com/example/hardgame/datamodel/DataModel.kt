@@ -1,4 +1,4 @@
-package com.example.hardgame
+package com.example.hardgame.datamodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
